@@ -1,0 +1,53 @@
+/* first color:#CC1616*/
+/* second color:#CC1616*/
+
+/*start header*/
+.bg-dark .container .fa-solid{
+    color: #CC1616;
+}
+/*end header*/
+
+/* start navbar */
+
+.navbar .collapse .nav-item:hover{
+    background-color: #CC1616;
+}
+
+.nav-head{
+    color: #CC1616;
+}
+
+/* end navabr */
+
+/*start hero*/
+
+.hero{
+width: 100%;
+  height: calc(100vh - 110px);
+  background: url("/img/hero-bg.jpg") top center;
+  background-size: cover;
+}
+
+/*end hero*/
+
+/*start about*/
+.about img{
+    width: 650px;
+}
+
+.about .about-arial{
+    font-style: italic;
+}
+/*end about*/
+
+/*my framfwork*/
+a{
+    text-decoration: none;
+    color:#CC1616;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white
+}
+
