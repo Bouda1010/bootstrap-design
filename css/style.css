@@ -1,6 +1,8 @@
 /* first color:#CC1616*/
 /* second color:#CC1616*/
-
+body{
+    height: 10000px;
+}
 /*start header*/
 .bg-dark .container .fa-solid{
     color: #CC1616;
@@ -31,12 +33,27 @@ width: 100%;
 /*end hero*/
 
 /*start about*/
-.about img{
-    width: 650px;
-}
 
 .about .about-arial{
     font-style: italic;
+}
+
+.about1 .border{
+    box-shadow: #CC1616;
+}
+
+.about1 .border:hover{
+    background-color: #CC1616;
+    color: white;
+}
+
+.clinet{
+    background-color: #F2F2F2;
+}
+
+.clinet img{
+    width: 80%;
+    padding: 20px 10px;
 }
 /*end about*/
 
