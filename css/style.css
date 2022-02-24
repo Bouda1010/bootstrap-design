@@ -105,7 +105,7 @@ width: 100%;
 /*start call*/
 
 .call{
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cta-bg.jpg") fixed center center;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
     color: white;
     padding: 100px 0;
     background-size: cover;
