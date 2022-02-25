@@ -1,12 +1,15 @@
 /* first color:#CC1616*/
 /* second color:#CC1616*/
-body{
-    height: 10000px;
-}
+
 /*start header*/
-.bg-dark .container .fa-solid{
+.bg-dark .container a{
     color: #CC1616;
 }
+
+.bg-dark .container a:hover{
+    color: #00B5FD;
+}
+
 /*end header*/
 
 /* start navbar */
@@ -26,7 +29,7 @@ body{
 .hero{
 width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/hero-bg.jpg") top center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg") fixed center center;
   background-size: cover;
 }
 
@@ -38,7 +41,7 @@ width: 100%;
     font-style: italic;
 }
 
-.about1 .border{
+.about1 .m-2{
     box-shadow: #CC1616;
 }
 
@@ -67,7 +70,7 @@ width: 100%;
 .services .serv-span{
     z-index: 1;
     position: absolute;
-    top: 30px;
+    top: 76px;
     left: 0;
     right: 0;
     color:#F4F4F4 ;
@@ -115,14 +118,162 @@ width: 100%;
 
 /*end services*/
 
+/*  start PORTFOLIO */
+
+.porfolio{
+    position: relative;
+    text-align: center;
+}
+
+.porfolio .port-span{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 52px;
+    color: #F4F4F4;
+    font-weight: 700;
+}
+
+.porfolio .port-h1{
+    z-index: 2;
+    position: relative;
+    font-size: 32px;
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.porfolio .list-inline li{
+    cursor: pointer;
+}
+/* end PORTFOLIO */
+
+/*start pricing*/
+
+.pricing{
+    position: relative;
+    text-align: center;
+}
+
+.pricing .pricing-head span{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    line-height: 0;
+    z-index: 1;
+    font-size: 73px;
+    color: #F2F2F2;
+}
+
+.pricing .pricing-head h1{
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+}
+
+.pricing .pricing-content{
+    background-color: #F9F9F9;
+}
+
+.pricing .pricing-content h1{
+    color: #00B5FD;
+    padding: 20px 0;
+}
+
+
+.pricing .pricing-content span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.pricing .pricing-content h1 span{
+    color: #C2BFC2;
+    font-size: 20px;
+    
+}
+
+.pricing .pricing-content:hover{
+    background-color: #CC1616;
+    color: white;
+}
+/*end pricing*/
+
+/*start team*/
+
+.team .team-head{
+    position: relative;
+    text-align: center
+}
+
+.team .team-head span{
+    position: absolute;
+    z-index: 1;
+    font-size: 68px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    color: #F2F2F2;
+    font-weight: 700;
+
+}
+
+.team .team-head h1{
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.team  .team-content a{
+    color: #919191;
+}
+
+.team  .team-content a:hover{
+    color: #CC1616;
+}
+
+/*end team*/
+
+/*start contact*/
+
+.contact .contact-head{
+    position: relative;
+}
+
+.contact .contact-head span{
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 68px;
+    color: #F4F4F4;
+}
+
+.contact .contact-head h1{
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+}
+
+.contact .contact-content i{
+    color: #CC1616;
+    border: dotted;
+}
+
+.contact .contact-content h4{
+    color: #777777;
+}
+
+.contact .contact-content p{
+    color: #777777;
+}
+
+/*end contact*/
+
 /*my framfwork*/
-a{
-    text-decoration: none;
-    color:#CC1616;
-}
-
-a:hover{
-    text-decoration: none;
-    color: white
-}
-
