@@ -2,11 +2,11 @@
 /* second color:#CC1616*/
 
 /*start header*/
-.bg-dark .container a{
+.bg-dark .container .head-icon a{
     color: #CC1616;
 }
 
-.bg-dark .container a:hover{
+.bg-dark .container .head-icon a:hover{
     color: #00B5FD;
 }
 
@@ -276,4 +276,47 @@ width: 100%;
 
 /*end contact*/
 
-/*my framfwork*/
+/*start footer*/
+
+.footer{
+    background-color: #0C0C0C;
+}
+
+.footer a{
+    color: #777777;
+}
+
+.footer .row .col-lg-2 ul li a:hover{
+    color: #CC1616;
+}
+
+.footer ul{
+    list-style: none;
+    color: #CC1616;
+    padding-left: 5px;
+}
+
+.footer .row .col-lg-2 ul li{
+    padding: 10px 0;
+}
+
+.footer .row .col-lg-2 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer .row .col-lg-4 input{
+    width: 70%;
+}
+
+/*end footer*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    
+}
+
+
